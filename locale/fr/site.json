@@ -38,30 +38,6 @@
     "governance": {
       "link": "about/governance",
       "text": "Gouvernance"
-    },
-    "community": {
-      "link": "about/community",
-      "text": "Community"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "Groupes de travail"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "Versions"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "Ressources"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "Marque déposée"
-    },
-    "privacy": {
-      "link": "about/privacy",
-      "text": "Politique de confidentialité"
     }
   },
   "download": {
@@ -113,10 +89,6 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "S’impliquer",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "Coder + Apprendre"
-    },
     "collab-summit": {
       "link": "get-involved/collab-summit",
       "text": "Collab Summit"
@@ -126,12 +98,8 @@
       "text": "Contribuer"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "Code de conduite"
-    },
-    "node-meetups": {
-      "link": "get-involved/node-meetups",
-      "text": "Node.js Meetups"
     }
   },
   "security": {

@@ -129,12 +129,6 @@
     for (var i = 0; i < linkEls.length; i++) {
       version = linkEls[i].getAttribute('data-version');
       el = linkEls[i];
-
-      // Windows 64-bit files for 0.x.x need to be prefixed with 'x64/'
-      if (os === 'Win' && version[1] === '0' && arch === 'x64') {
-        el.href += arch + '/';
-      }
-
       el.href += filename.replace('%version%', version);
     }
   }
@@ -144,7 +138,7 @@
     switch (os) {
       case 'Mac':
         versionIntoHref(buttons, 'node-%version%.pkg');
-        downloadHead.textContent = dlLocal + ' macOS (x64)';
+        downloadHead.textContent = dlLocal + ' macOS';
         break;
       case 'Win':
         versionIntoHref(buttons, 'node-%version%-' + arch + '.msi');
@@ -163,20 +157,5 @@
     var winText = winButton.querySelector('p');
     winButton.href = winButton.href.replace(/x(86|64)/, arch);
     winText.textContent = winText.textContent.replace(/x(86|64)/, arch);
-  }
-})();
-(function () {
-  // This function is used to replace the anchor
-  // link of Edit on GitHub
-
-  var editOnGitHubElement = document.getElementById('editOnGitHubLink');
-  var editOnGitHubUrlElement = document.getElementById('editOnGitHubUrl');
-
-  if (editOnGitHubUrlElement) {
-    editOnGitHubElement.setAttribute('href', editOnGitHubUrlElement.value);
-  } else {
-    editOnGitHubElement.parentNode.parentNode.removeChild(
-      editOnGitHubElement.parentNode
-    );
   }
 })();

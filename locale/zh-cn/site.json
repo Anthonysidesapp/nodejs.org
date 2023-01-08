@@ -41,30 +41,6 @@
     "governance": {
       "link": "about/governance",
       "text": "管理规则"
-    },
-    "community": {
-      "link": "about/community",
-      "text": "社区"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "工作组"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "发布"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "资源"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "商标"
-    },
-    "privacy": {
-      "link": "about/privacy",
-      "text": "隐私政策"
     }
   },
   "download": {
@@ -119,10 +95,6 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "加入我们",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "代码与学习"
-    },
     "collab-summit": {
       "link": "get-involved/collab-summit",
       "text": "协作者峰会"
@@ -132,12 +104,8 @@
       "text": "贡献"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "管理"
-    },
-    "node-meetups": {
-      "link": "get-involved/node-meetups",
-      "text": "Node.js 开发者大会"
     }
   },
   "security": {
@@ -163,7 +131,7 @@
   },
   "banners": {
     "index": {
-      "text": "针对 Node.js 12、14、16 和 17 各版本的安全补丁现已发布"
+      "text": null
     }
   }
 }

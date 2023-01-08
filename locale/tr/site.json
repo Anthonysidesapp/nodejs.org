@@ -38,30 +38,6 @@
     "governance": {
       "link": "about/governance",
       "text": "Yönetim"
-    },
-    "community": {
-      "link": "about/community",
-      "text": "Topluluk"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "Çalışma Grupları"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "Sürümler"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "Kaynaklar"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "Marka"
-    },
-    "privacy": {
-      "link": "about/privacy",
-      "text": "Gizlilik Politikası"
     }
   },
   "download": {
@@ -113,10 +89,6 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "Katıl",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "Kodla + Öğren"
-    },
     "collab-summit": {
       "link": "get-involved/collab-summit",
       "text": "İşbirliği Zirvesi"
@@ -126,12 +98,8 @@
       "text": "Katkıda bulunmak"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "Davranış Kuralları"
-    },
-    "node-meetups": {
-      "link": "get-involved/node-meetups",
-      "text": "Node.js Toplantıları"
     }
   },
   "security": {

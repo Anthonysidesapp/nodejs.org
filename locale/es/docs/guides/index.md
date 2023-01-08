@@ -13,10 +13,12 @@ layout: docs.hbs
 * [Diagnostics - Flame Graphs](/en/docs/guides/diagnostics-flamegraph/)
 * [Dockerizing a Node.js web app](/en/docs/guides/nodejs-docker-webapp/)
 * [Migrating to safe Buffer constructors](/en/docs/guides/buffer-constructor-deprecation/)
+* [Diagnostics - User Journey](/en/docs/guides/diagnostics/)
+* [Security Best Practices](/es/docs/guides/security/)
 
 ## Node.js core concepts
 
-* [Introduction to Node.js](https://nodejs.dev/)
+* [Introduction to Node.js](https://nodejs.dev/en/learn/)
 * [Overview of Blocking vs Non-Blocking](/en/docs/guides/blocking-vs-non-blocking/)
 * [The Node.js Event Loop, Timers, and `process.nextTick()`](/en/docs/guides/event-loop-timers-and-nexttick/)
 * [Don't Block the Event Loop (or the Worker Pool)](/en/docs/guides/dont-block-the-event-loop/)
@@ -30,3 +32,7 @@ layout: docs.hbs
 * [Domain Module Postmortem](/en/docs/guides/domain-postmortem/)
 * [How to publish N-API package](/en/docs/guides/publishing-napi-modules/)
 * [ABI Stability](/en/docs/guides/abi-stability/)
+
+## Known issues
+
+* [Native dependencies on macOS Catalina (v10.15)](https://github.com/nodejs/node-gyp/blob/master/macOS_Catalina.md)

@@ -38,22 +38,6 @@
     "governance": {
       "link": "about/governance",
       "text": "Governance"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "Arbeitskreise"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "Versionen"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "Ressourcen"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "Trademark"
     }
   },
   "download": {
@@ -99,16 +83,12 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "Mitmachen",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "Programmiere + Lerne"
-    },
     "contribute": {
       "link": "get-involved/contribute",
       "text": "Mitwirken"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "Verhaltenskodex"
     }
   },

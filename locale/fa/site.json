@@ -38,30 +38,6 @@
     "governance": {
       "link": "about/governance",
       "text": "مدیریت"
-    },
-    "community": {
-      "link": "about/community",
-      "text": "جامعه"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "گروه‌های کاری"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "انتشارها"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "منابع"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "نشان تجاری"
-    },
-    "privacy": {
-      "link": "about/privacy",
-      "text": "سیاست‌های حریم شخصی"
     }
   },
   "download": {
@@ -113,10 +89,6 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "مشارکت جستن",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "کد بزنید و یادبگیرید"
-    },
     "collab-summit": {
       "link": "get-involved/collab-summit",
       "text": "نشت مشارکت کنندگان"
@@ -126,7 +98,7 @@
       "text": "مشارکت"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "شیوه تعامل برای مشارکت"
     }
   },

@@ -39,26 +39,6 @@
     "governance": {
       "link": "about/governance",
       "text": "管理規則"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "工作群組"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "發佈版"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "資源"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "商標"
-    },
-    "privacy": {
-      "link": "about/privacy",
-      "text": "隱私權政策"
     }
   },
   "download": {
@@ -104,10 +84,6 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "加入我們",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "程式碼與學習"
-    },
     "collab-summit": {
       "link": "get-involved/collab-summit",
       "text": "協作者峰會"
@@ -117,12 +93,8 @@
       "text": "貢獻"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "管理"
-    },
-    "node-meetups": {
-      "link": "get-involved/node-meetups",
-      "text": "Node.js 開發者大會"
     }
   },
   "security": {

@@ -93,7 +93,7 @@ function fetchChangelog(version) {
   const releaseLine = parts[0] === '0' ? parts.slice(0, 2).join('') : parts[0];
 
   return sendRequest({
-    url: `https://raw.githubusercontent.com/nodejs/node/master/doc/changelogs/CHANGELOG_V${releaseLine}.md`
+    url: `https://raw.githubusercontent.com/nodejs/node/main/doc/changelogs/CHANGELOG_V${releaseLine}.md`
   }).then((data) => {
     // matches a complete release section
     const rxSection = new RegExp(
@@ -169,7 +169,7 @@ function findAuthorLogin(version, section) {
 
 function urlOrComingSoon(binary) {
   const url = binary.url.replace('nodejs.org', 'direct.nodejs.org');
-  return sendRequest({ url: url, method: 'HEAD' }).then(
+  return sendRequest({ url, method: 'HEAD' }).then(
     () => `${binary.title}: ${binary.url}`,
     () => {
       console.log(`\x1B[32m "${binary.title}" is Coming soon...\x1B[39m`);
@@ -211,23 +211,21 @@ function writeToFile(results) {
   );
 
   return new Promise((resolve, reject) => {
-    fs.access(filepath, fs.F_OK, (err) => {
-      if (!err && process.argv[3] !== '--force') {
-        return reject(
-          new Error(`Release post for ${results.version} already exists!`)
-        );
-      }
+    if (fs.existsSync(filepath) && process.argv[3] !== '--force') {
+      return reject(
+        new Error(`Release post for ${results.version} already exists!`)
+      );
+    }
 
-      fs.writeFile(filepath, results.content, (err1) => {
-        if (err1) {
-          return reject(
-            new Error(`Failed to write Release post: Reason: ${err1.message}`)
-          );
-        }
+    try {
+      fs.writeFileSync(filepath, results.content);
+    } catch (error) {
+      return reject(
+        new Error(`Failed to write Release post: Reason: ${error.message}`)
+      );
+    }
 
-        resolve(filepath);
-      });
-    });
+    resolve(filepath);
   });
 }
 

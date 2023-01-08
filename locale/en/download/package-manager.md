@@ -30,7 +30,7 @@ title: Installing Node.js via package manager
 * [Snap](#snap)
 * [Solus](#solus)
 * [Void Linux](#void-linux)
-* [Windows](#windows)
+* [Windows](#windows-1)
 * [z/OS](#zos)
 
 ---
@@ -84,10 +84,10 @@ To see a list of available streams:
 dnf module list nodejs
 ```
 
-For example, to install Node.js 12:
+For example, to install Node.js 18:
 
 ```bash
-dnf module install nodejs:12
+dnf module install nodejs:18/common
 ```
 
 For CentOS/RHEL 7 Node.js is available via [Software Collections](https://www.softwarecollections.org/en/scls/?search=NodeJS).
@@ -197,7 +197,7 @@ cd pkgsrc/lang/nodejs && bmake install
 or select from a menu of previously downloaded versions. The versions are installed system-wide or user-wide, and for more
 targeted use you can run a version directly from the cached downloads.
 
-See the [homepage](https://github.com/tj/n) for install methods (boostrap, npm, Homebrew, third-party), and all the usage details.
+See the [homepage](https://github.com/tj/n) for install methods (bootstrap, npm, Homebrew, third-party), and all the usage details.
 
 If you already have `npm` then installing `n` and then the newest LTS `node` version is as simple as:
 
@@ -394,11 +394,13 @@ Using **[Scoop](https://scoop.sh/)**:
 
 ```bash
 scoop install nodejs
+# or for LTS
+scoop install nodejs-lts
 ```
 
 ## z/OS
 
 IBM&reg; SDK for Node.js - z/OS&reg; is available in two installation formats,
 SMP/E and PAX. Select the installation format that applies to you:
-* [Installing and configuring SMP/E edition of Node.js on z/OS](https://www.ibm.com/support/knowledgecenter/SSTRRS_14.0.0/com.ibm.nodejs.zos.v14.doc/smpe.htm)
-* [Installing and configuring PAX edition of Node.js on z/OS](https://www.ibm.com/support/knowledgecenter/SSTRRS_14.0.0/com.ibm.nodejs.zos.v14.doc/paxz.htm)
+* [Installing and configuring SMP/E edition of Node.js on z/OS](https://www.ibm.com/docs/en/sdk-nodejs-zos/14.0?topic=configuring-installing-smpe-edition)
+* [Installing and configuring PAX edition of Node.js on z/OS](https://www.ibm.com/docs/en/sdk-nodejs-zos/14.0?topic=configuring-installing-pax-edition)

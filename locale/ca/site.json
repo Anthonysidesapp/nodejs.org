@@ -37,30 +37,6 @@
     "governance": {
       "link": "about/governance",
       "text": "Govern"
-    },
-    "community": {
-      "link": "about/community",
-      "text": "Comunitat"
-    },
-    "workinggroups": {
-      "link": "about/working-groups",
-      "text": "Grups de Treball"
-    },
-    "releases": {
-      "link": "about/releases",
-      "text": "Versions"
-    },
-    "resources": {
-      "link": "about/resources",
-      "text": "Recursos"
-    },
-    "trademark": {
-      "link": "about/trademark",
-      "text": "Marca"
-    },
-    "privacy": {
-      "link": "about/privacy",
-      "text": "Política de Privacitat"
     }
   },
   "download": {
@@ -112,10 +88,6 @@
   "getinvolved": {
     "link": "get-involved",
     "text": "Participa",
-    "code-and-learn": {
-      "link": "get-involved/code-and-learn",
-      "text": "Programa + Aprèn"
-    },
     "collab-summit": {
       "link": "get-involved/collab-summit",
       "text": "Col·labora en el Summit"
@@ -125,7 +97,7 @@
       "text": "Contribueix"
     },
     "conduct": {
-      "link": "https://github.com/nodejs/node/blob/master/doc/contributing/code-of-conduct.md",
+      "link": "https://github.com/nodejs/node/blob/main/doc/contributing/code-of-conduct.md",
       "text": "Codi de Conducta"
     }
   },
